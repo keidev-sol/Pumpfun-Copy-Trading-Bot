@@ -1,15 +1,21 @@
-## Pumpfun Copy Trading Bot
+# 🚀 Pumpfun Copy Trading Bot
 
-A Pumpfun Copy Trading Bot on Solana automatically tracks and mimics the trades of a specific trader's wallet. It monitors the trader's transactions (such as buying or selling tokens) and automatically executes the same actions in your wallet in real-time. The bot allows you to follow experienced traders without manually managing trades, copying their buys and sells on the Pumpfun platform as well as other supported exchanges.
+A **high-performance copy trading bot** on Solana that automatically tracks and replicates trades from a target wallet in real time.  
+The bot continuously monitors on-chain activity (buy/sell transactions) and mirrors them in your wallet with customizable settings.  
+It enables you to follow top traders seamlessly on **Pumpfun** as well as other major Solana DEXs.  
 
-### Bot Features
-- Track Token Swaps: Continuously monitors every token swap on the Solana network to identify the best opportunities.
-- Trade Across Multiple DEXs: Swap tokens on any supported decentralized exchange according to your preferences, including Pumpfun, Raydium, and Jupiter.
-- Automatic Trades: Let the bot automatically buy and sell based on your customized strategy, so you don’t have to lift a finger.
-- Customizable Trading Strategy: Tailor your own trading approach to fit your risk tolerance and goals.
-- Multi-Wallet Support: Set up and manage multiple wallets, executing trades on each simultaneously.
+---
 
-### Enhanced websocket
+## 🔑 Features
+- **Real-Time Trade Mirroring**: Instantly copies buy and sell actions from selected wallets.  
+- **Cross-DEX Support**: Works with Pumpfun, Raydium, Jupiter, and other Solana-based exchanges.  
+- **Automated Execution**: Executes trades automatically based on your configuration.  
+- **Customizable Strategies**: Adjust buy/sell sizes, slippage, and risk preferences.  
+- **Multi-Wallet Management**: Run copy trading on multiple wallets simultaneously.  
+
+---
+
+## ⚡ Enhanced WebSocket Example
 
 ```json
 {
@@ -17,28 +23,33 @@ A Pumpfun Copy Trading Bot on Solana automatically tracks and mimics the trades 
   "id": 420,
   "method": "transactionSubscribe",
   "params": [
-      {
-        "vote": false,
-        "failed": false,
-        "signature": "2dd5zTLrSs2udfNsegFRCnzSyQcPrM9svX6m1UbEM5bSdXXFj3XpqaodtKarLYFP2mTVUsV27sRDdZCgcKhjeD9S",
-        "accountInclude": ["pqx3fvvh6b2eZBfLhTtQ5KxzU3CginmgGTmDCjk8TPP"],
-        "accountExclude": ["FbfwE8ZmVdwUbbEXdq4ofhuUEiAxeSk5kaoYrJJekpnZ"],
-        "accountRequired": ["As1XYY9RdGkjs62isDhLKG3yxMCMatnbanXrqU85XvXW"]
-      },
-      {
-	"commitment": "processed",
-    	"encoding": "base64",
-    	"transactionDetails": "full",
-    	"showRewards": true,
-    	"maxSupportedTransactionVersion": 0 
-      }
+    {
+      "vote": false,
+      "failed": false,
+      "signature": "2dd5zTLrSs2udfNsegFRCnzSyQcPrM9svX6m1UbEM5bSdXXFj3XpqaodtKarLYFP2mTVUsV27sRDdZCgcKhjeD9S",
+      "accountInclude": ["pqx3fvvh6b2eZBfLhTtQ5KxzU3CginmgGTmDCjk8TPP"],
+      "accountExclude": ["FbfwE8ZmVdwUbbEXdq4ofhuUEiAxeSk5kaoYrJJekpnZ"],
+      "accountRequired": ["As1XYY9RdGkjs62isDhLKG3yxMCMatnbanXrqU85XvXW"]
+    },
+    {
+      "commitment": "processed",
+      "encoding": "base64",
+      "transactionDetails": "full",
+      "showRewards": true,
+      "maxSupportedTransactionVersion": 0 
+    }
   ]
 }
-``` 
 
-# 👤 Author
-### Telegram: [Vladmeer](https://t.me/vladmeer67)   
-https://t.me/vladmeer67
+```
 
-### Twitter: [Vladmeer](https://x.com/vladmeer67)   
-https://x.com/vladmeer67
+---
+
+## 👤 Author  
+
+- **Telegram**: [Kei Novak](https://t.me/Kei4650)  
+- **Twitter (X)**: [Kei Novak](https://x.com/kei_4650)  
+
+---
+
+
